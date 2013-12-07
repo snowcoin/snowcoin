@@ -27,7 +27,7 @@ static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnop
 inline std::string EncodeBase58(const unsigned char* pbegin, const unsigned char* pend)
 {
     CAutoBN_CTX pctx;
-    CBigNum bn58 = 25;
+    CBigNum bn58 = 58;
     CBigNum bn0 = 0;
 
     // Convert big endian data to little endian
@@ -276,8 +276,8 @@ class CsnowcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 25,
-        SCRIPT_ADDRESS = 30, 
+        PUBKEY_ADDRESS = 63,
+        SCRIPT_ADDRESS = 68, 
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
     };
