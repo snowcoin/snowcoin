@@ -1,0 +1,9 @@
+Building snowcoin
+
+See doc/readme-qt.rst for instructions on building snowcoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of snowcoin.
+
+See doc/build-*.txt for instructions on building snowcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of snowcoin.

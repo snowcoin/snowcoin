@@ -1,4 +1,4 @@
-snowcoin
-========
+Snowcoin - SNC
+==============
 
-Snowcoin...
+A cryptocurrency...
